@@ -1,0 +1,185 @@
+
+.menu ul li{
+  
+    list-style: none;
+    float: left;
+    position: relative;
+    display: block;
+font-weight: bold;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 15px 0px 15px;
+    line-height: 50px;
+    display: block;
+    background-color: gray;
+}
+.menu .menubo{display: flex;
+    justify-content: center;
+    }
+    .menu .menubo li{
+        position: relative;
+    }
+    .menu .menubo .menucon{
+        position: absolute;
+        width: 200px;
+        display: none;
+    }
+    .menu .menubo li:hover a{color: orangered;
+        transform: scale(1);
+        background-color: aqua;
+        text-align: center;
+        }
+        .menu .menubo li:hover .menucon{
+            display: block;
+            z-index: 1;
+        
+        }
+
+        .menu .menucon{
+            top: 50px;
+        
+        }
+        .menu .menucon li{
+            background-color: aqua;
+            border-bottom: 1px #252a2b solid;
+        }
+        .menu .menucon a{
+            display: inline-block;
+        
+        }    
+        .img0 {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+            margin: 0;
+            background-color: #f0f0f0;
+            overflow: hidden; 
+        }
+        
+      
+        .img1 {
+            position: relative;
+        }
+        
+        
+        .img2 {
+            height: 1000px;
+            width: 1200px;  
+            height: auto;
+            position: relative;
+            animation: moveLeft 5s linear infinite;
+        }
+        
+        
+        @keyframes moveLeft {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%); 
+            }
+        }
+        .gopy {
+            width: 100%;
+            max-width: 600px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        
+        .gopy h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: blue;
+        }
+        
+        .gopy2 .form-group {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+        
+        .gopy2 label {
+            display: block;
+            font-size: 14px;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        
+        
+        .gopy2 input[type="text"],
+        .gopy2 input[type="email"],
+        .gopy2 textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+            box-sizing: border-box;
+        }
+        
+        .gopy2 textarea {
+            height: 100px;
+            resize: vertical;
+        }
+        .submit-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        .submit-button:hover {
+            background-color: #0056b3;
+        }
+        .personal-images-section {
+            text-align: center;
+            margin-top: 40px;
+        }
+        
+        .personal-photo {
+            margin-bottom: 20px;
+        }
+        
+        .personal-photo img {
+            width: 150px; 
+            height: 150px; 
+            border-radius: 50%; 
+            object-fit: cover;
+            border: 3px solid #333; 
+        }
+        
+        
+        .personal-photo p {
+            font-size: 30px;
+            color: #333;
+            margin-top: 30px;
+        }
+        
+        .small-images {
+            display: flex;
+            justify-content: space-between; 
+            flex-wrap: wrap; 
+            gap: 5px; 
+            margin-top: 20px;
+        }
+        
+        .small-images img {
+            width: 150px; 
+            height: 150px; 
+            border-radius: 5px; 
+            object-fit: cover; 
+        }
+        
+        
